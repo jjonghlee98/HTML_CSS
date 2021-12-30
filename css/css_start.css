@@ -1,0 +1,11 @@
+.windows-header-icon {
+    left: -28px;
+    position: absolute;
+    top: 8px;
+}
+
+.windows-header-inline-content {
+    cursor: default;
+    display: inline-block;
+    margin: 4px 6px 0 0;
+}
