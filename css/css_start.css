@@ -1,11 +1,15 @@
-.windows-header-icon {
-    left: -28px;
-    position: absolute;
-    top: 8px;
+html {
+  background-color: green;
+  font-size: 20px;
+  border: 1px solid black;
 }
 
-.windows-header-inline-content {
-    cursor: default;
-    display: inline-block;
-    margin: 4px 6px 0 0;
+ul {
+  background: red;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+li {
+  margin-left: 20px;
 }
