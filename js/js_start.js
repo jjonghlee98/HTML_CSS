@@ -1,3 +1,4 @@
+// + html_tag
 // MDN Web site를 참고한 내용입니다. 
 const list = document.createElement('ul');
 const info = document.createElement('p');
