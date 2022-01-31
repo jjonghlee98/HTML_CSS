@@ -1,0 +1,48 @@
+.circle {
+  width: 300px;
+  height: 300px;
+  border: 1px solid #000000;
+  text-align: center;
+  font-size: 2rem;
+  background-color: paleturquoise;
+  transition: background-color 0.5s, ease-in, border-radius 0.5s;
+}
+
+h2 {
+  padding-top: 60px;
+  text-decoration: underline;
+}
+
+.circle:hover {
+  background-color: palegreen;
+  border-radius: 50%;
+}
+
+section div {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  margin: 20px 20px 20px 0px;
+  background-color: yellow;
+  transition: margin-left 3s;
+}
+
+section:hover div {
+  margin-left: 500px;
+}
+
+div:nth-of-type(1) {
+  transition-timing-function: ease-in;
+}
+
+div:nth-of-type(2) {
+  transition-timing-function: ease-out;
+}
+
+div:nth-of-type(3) {
+  transition-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+}
+
+div:nth-of-type(4) {
+  transition-timing-function: cubic-bezier(0.85, 0, 0.15, 1);
+}

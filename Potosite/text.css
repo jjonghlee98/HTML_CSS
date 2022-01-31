@@ -1,0 +1,41 @@
+/* body {
+  background-color: #403e3d;
+}
+
+nav {
+  font-size: 1em;
+  font-family: "Mochiy Pop P One";
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 20px 0;
+  color: white;
+}
+
+img {
+  width: 30%;
+  margin: calc(10% / 7);
+} */
+
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+  border-radius: 15px;
+}
+
+nav {
+  /* border: 1px solid; */
+  margin-left: calc(10% / 6);
+  padding: 20px 0;
+  color: white;
+  border-bottom: 2px solid white;
+  /* border-style: wavy; */
+  width: 30%;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+body {
+  background-color: #146441;s
+}
